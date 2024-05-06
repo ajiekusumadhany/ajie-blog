@@ -1,0 +1,4 @@
+{{- define "main" -}}
+    {{- partial "article/article" . }}
+    {{ partial "comments/provider/disqus.html" . -}}
+{{ end }}
