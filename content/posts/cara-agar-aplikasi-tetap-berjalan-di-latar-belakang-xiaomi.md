@@ -4,7 +4,7 @@ author: "Ajie Kusumadhany"
 date: 2024-05-07T10:05:23+07:00
 slug: ""
 featured_image: ""
-summary: 
+summary: Cara agar aplikasi tetap berjalan di latar belakang xiaomi, dengan langkah-langkah mudah dan optimalkan pengalaman penggunaan aplikasi.
 tags: ["Xiaomi"]
 categories: ["Smartphone"]
 draft: false
