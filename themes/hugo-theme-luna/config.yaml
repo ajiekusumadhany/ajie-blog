@@ -37,7 +37,7 @@ params:
     leftColor: "#dd6065"
     leftText: "Hugo Theme Luna"
     rightColor: "#feb462"
-    rightText: "Powered by Hugo ❤ Luna"
+    rightText: " Hugo ❤ Luna"
 
   headlineCounter: true
 
