@@ -1,23 +1,40 @@
 {{- define "main" -}}
-    <div class="page-blog relative px-6 md:px-10">
-        <div class="article-list mx-auto">
-            <div class="flex items-center py-6 text-xl">
-                <i class="eva eva-bar-chart-outline mr-2"></i>
-                {{- $totalPost := len (where site.RegularPages "Type" "in" (slice "posts" "status")) | string -}}
-                {{- $totalPostHTML := printf `<span class="mx-1 text-theme">%s</span>` $totalPost -}}
-                <span>{{- T "post.archiveCounter" $totalPostHTML | safeHTML -}}</span>
-            </div>
-
-            {{- partial "components/announcement" . -}}
-
-            <div>
-                {{- $paginator := .Paginate (where site.RegularPages "Type" "in" (slice "posts" "status")) -}}
-                {{- range $paginator.Pages -}}
-                    {{- partial "article-list/article" . -}}
-                {{- end -}}
-            </div>
+<div class="page-blog relative px-6 md:px-10">
+    <div class="article-list mx-auto">
+        <div class="flex items-center py-6 text-xl">
+            <i class="eva eva-bar-chart-outline mr-2"></i>
+            {{- $totalPost := len (where site.RegularPages "Type" "in" (slice "posts" "status")) | string -}}
+            {{- $totalPostHTML := printf `<span class="mx-1 text-theme">%s</span>` $totalPost -}}
+            <span>{{- T "post.archiveCounter" $totalPostHTML | safeHTML -}}</span>
         </div>
 
-        {{- partial "article-list/components/pagination" . -}}
+        {{- partial "components/announcement" . -}}
+        <!-- Histats.com  (div with counter) -->
+        <div id="histats_counter"></div>
+        <!-- Histats.com  START  (aync)-->
+        <script type="text/javascript">var _Hasync = _Hasync || [];
+            _Hasync.push(['Histats.startgif', '1,4842275,4,10042,"div#histatsC {position: absolute;top:0px;left:0px;}body>div#histatsC {position: fixed;}"']);
+            _Hasync.push(['Histats.fasi', '1']);
+            _Hasync.push(['Histats.track_hits', '']);
+            (function () {
+                var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+                hs.src = ('//s10.histats.com/js15_gif_as.js');
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+            })();</script>
+        <noscript><a href="/" alt="" target="_blank">
+                <div id="histatsC"><img border="0" src="//s4is.histats.com/stats/i/4842275.gif?4842275&103"></div>
+            </a>
+        </noscript>
+        <!-- Histats.com  END  -->
+
+        <div>
+            {{- $paginator := .Paginate (where site.RegularPages "Type" "in" (slice "posts" "status")) -}}
+            {{- range $paginator.Pages -}}
+            {{- partial "article-list/article" . -}}
+            {{- end -}}
+        </div>
     </div>
+
+    {{- partial "article-list/components/pagination" . -}}
+</div>
 {{- end -}}
