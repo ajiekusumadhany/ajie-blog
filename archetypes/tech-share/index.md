@@ -1,5 +1,7 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+slug: ""
+featured_image: ""
 author: "Tuvix Shih"
 date: {{ .Date }}
 slug: ""

@@ -1,8 +1,10 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-author: "Tuvix Shih"
+author: "Ajie Kusumadhany"
 date: {{ .Date }}
 slug: ""
+featured_image: ""
+summary: 
 tags: [""]
 categories: [""]
 draft: true
