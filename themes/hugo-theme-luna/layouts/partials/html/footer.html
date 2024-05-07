@@ -1,4 +1,6 @@
-{{- $theme := printf `<a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://ajiekusumadhany.com" target="_blank" rel="noopener noreferrer">Ajie Kusumadhany</a>` -}}
+{{- $ajie := `<a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a>` -}}
+{{- $heart := `<span class="text-xs opacity-70">❤</span>` -}}
+{{- $world := printf `<a data-no-swup class="mx-1 font-bold hover:text-theme" href="https://github.com/Ice-Hazymoon/hugo-theme-luna" target="_blank" rel="noopener noreferrer nofollow">Luna</a>` -}}
 
 
 <footer>
@@ -8,7 +10,7 @@
         <div class="mb-2 flex items-center justify-between text-center md:mb-0">
             <span class="">© {{ .Site.Params.since }} - {{ now.Format "2006" }}</span>
             <span class="mx-1.5 opacity-50"> | </span>
-            {{- T (dict "Theme" $theme) | safeHTML -}}
+            {{- T (dict "Ajie" $ajie "Heart" $heart "World" $world) | safeHTML -}}
         </div>
 
         <div class="flex items-center">
