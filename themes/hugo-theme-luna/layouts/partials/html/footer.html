@@ -10,7 +10,7 @@
         <div class="mb-2 flex items-center justify-between text-center md:mb-0">
             <span class="">© {{ .Site.Params.since }} - {{ now.Format "2006" }}</span>
             <span class="mx-1.5 opacity-50"> | </span>
-            {{- T (dict "Ajie" $ajie "Heart" $heart "World" $world) | safeHTML -}}
+            {{- T "Poweredby" (dict "Ajie" $ajie "Heart" $heart "World" $world) | safeHTML -}}
         </div>
 
         <div class="flex items-center">
