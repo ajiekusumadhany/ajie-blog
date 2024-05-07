@@ -2,7 +2,6 @@
 title: "5 Cara Agar Aplikasi Tetap Berjalan di Latar Belakang Xiaomi"
 author: "Ajie Kusumadhany"
 date: 2024-05-07T09:35:52+07:00
-slug: cara-agar-aplikasi-tetap-berjalan-di-latar-belakang-xiaomi
 featured_image: ".\img\Cara-Agar-Aplikasi-Tetap-Berjalan-di-Latar-Belakang-Xiaomi.png"
 summary: Cara agar aplikasi tetap berjalan di latar belakang xiaomi, dengan langkah-langkah mudah dan optimalkan pengalaman penggunaan aplikasi.
 tags: ["Xiaomi"]
