@@ -17,3 +17,7 @@ layout: "links"
 {{< link url="https://ajiekusumadhany.com/" image="profil.png" title="I am Ajie" desc="Tidak ada perkenalan" >}}
 
 #### Tools
+{{< link url="https://gohugo.io/" image="hugo.png" title="Hugo" desc="Static site generator" >}}
+{{< link url="https://getbootstrap.com/" image="bootstrap.png" title="Bootstrap" desc="Framework Css" >}}
+{{< link url="https://vuejs.org/" image="vue.png" title="Vue" desc="Framework Js" >}}
+{{< link url="https://react.dev/" image="react.png" title="React" desc="Library Js" >}}
