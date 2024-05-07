@@ -5,9 +5,9 @@ date: 2024-05-07T10:05:23+07:00
 slug: ""
 featured_image: ""
 summary: 
-tags: [""]
-categories: [""]
-draft: true
+tags: ["Xiaomi"]
+categories: ["Smartphone"]
+draft: false
 ---
 
 Bagi pengguna smartphone Xiaomi, mungkin pernah mengalami masalah di mana aplikasi berhenti saat dipindahkan ke latar belakang. Hal ini dapat menyebabkan beberapa masalah, seperti notifikasi yang tidak muncul atau aplikasi tidak berjalan dengan benar. 
