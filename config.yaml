@@ -29,7 +29,7 @@ paginate: 10
 permalinks:
   # 文章链接的格式
   # Format of posts links
-  post: /:slug # 2019/01/01/hello-world.html
+  posts: # 2019/01/01/hello-world.html
   pages: /:slug # about.html
 
 author:
