@@ -1,7 +1,7 @@
-baseURL: https://blog.ajiekusumadhany.com/
+baseURL: https://ajiekusumadhany.com/
 languageCode: en-us
 defaultContentLanguage: en-us
-title: "Ajie Kusumadhany | Personal Blog"
+title: "Ajie Ikrus Kusumadhany"
 enableRobotsTXT: true
 enableEmoji: true
 theme: hugo-theme-luna
@@ -71,7 +71,7 @@ privacy:
     privacyEnhanced: true
 
 sitemap:
-  changefreq: weekly
+  changefreq: daily
   priority: 0.5
   filename: sitemap.xml
 
@@ -201,7 +201,7 @@ params:
       mapping: "title"
       reactionsEnabled: 1
       emitMetadata: 0
-      lazy: false
+      lazy: true
       lang: "id"
 
   # RSS configuration
@@ -227,7 +227,7 @@ params:
     leftColor: "#0D9488"
     leftText: "Ajie Kusumadhany"
     rightColor: "#0D9488"
-    rightText: "Powered by Hugo ❤ Luna"
+    rightText: " ❤ World"
 
   # Title counter
   headlineCounter: false
@@ -235,8 +235,7 @@ params:
   # Fixed navigation bar
   fixedNav: true
 
-  # Site font
-  # font: '"Times New Romad:\blog2md\out\3-cara-melewati-link-semawur-dengan-mudah.md d:\blog2md\out\5-aplikasi-pendingin-hp-xiaomi-terbaik-untuk-dicoba.md d:\blog2md\out\6-cara-memperbaiki-tombol-power-hp-xiaomi.md d:\blog2md\out\10-cara-membatasi-penggunaan-data-hp-xiaomi.md d:\blog2md\out\aktivasi-kartu-smartfren-di-hp-xiaomi.md d:\blog2md\out\apa-itu-perangkat-tegar-di-vivo.md d:\blog2md\out\apakah-hp-vivo-y12-bisa-pakai-kartu-smartfren.md d:\blog2md\out\apakah-hp-vivo-y15-bisa-4g-yuk-cari-tahu.md d:\blog2md\out\aplikasi-equalizer-terbaik-untuk-sound-system-pc.md d:\blog2md\out\belajar-html-hypertext-markup-language.md d:\blog2md\out\cara-agar-aplikasi-tetap-berjalan-di-latar-belakang-xiaomi.md d:\blog2md\out\cara-blokir-no-di-hp-samsung-lipat.md d:\blog2md\out\cara-buka-casing-oppo-a3s.md d:\blog2md\out\cara-buka-casing-oppo-a5s.md d:\blog2md\out\cara-buka-casing-oppo-a37.md d:\blog2md\out\cara-buka-pola-oppo-a3s-dengan-mudah-dan-cepat.md d:\blog2md\out\cara-custom-rom-xiaomi-redmi-5a.md d:\blog2md\out\cara-download-font-samsung-berbayar-jadi-gratis.md d:\blog2md\out\cara-flash-hp-oppo-a3s-mudah-dan-aman.md d:\blog2md\out\cara-flash-hp-xiaomi-redmi-3-pro.md d:\blog2md\out\cara-flash-oppo-a57.md d:\blog2md\out\cara-flash-oppo-f5-cph1723-via-flashtool.md d:\blog2md\out\cara-flash-xiaomi-redmi-note-4g-dual-sim.md d:\blog2md\out\cara-keluar-dari-mode-aman-xiaomi.md d:\blog2md\out\cara-kloning-whatsapp-di-oppo.md d:\blog2md\out\cara-kunci-4g-oppo-a5s.md d:\blog2md\out\cara-melewati-verifikasi-akun-google-xiaomi-redmi-6a.md d:\blog2md\out\cara-melihat-daftar-hitam-di-hp-vivo.md d:\blog2md\out\cara-melihat-kata-sandi-hotspot-di-hp-samsung.md d:\blog2md\out\cara-melihat-penggunaan-data-di-vivo-y53.md d:\blog2md\out\cara-melihat-proxy-hp-sendiri.md d:\blog2md\out\cara-memasang-kartu-memori-di-hp-xiaomi-4a.md d:\blog2md\out\cara-memasang-kartu-memori-di-hp-xiaomi-4a-comments.md d:\blog2md\out\cara-memasang-kartu-sd-di-hp-samsung-j2-prime.md d:\blog2md\out\cara-mematikan-alarm-di-hp-xiaomi-redmi-5a.md d:\blog2md\out\cara-mematikan-data-saat-layar-terkunci-xiaomi.md d:\blog2md\out\cara-mematikan-face-wake-vivo-dengan-mudah.md d:\blog2md\out\cara-mematikan-mode-hening-di-iphone.md d:\blog2md\out\cara-mematikan-notifikasi-grup-whatsapp.md d:\blog2md\out\cara-memberi-nama-di-bar-bagian-atas-hp-xiaomi-6a.md d:\blog2md\out\cara-membersihkan-sampah-di-hp-oppo-a3s.md d:\blog2md\out\cara-membuat-link-undangan-grup-whatsapp.md d:\blog2md\out\cara-membuat-nama-di-samping-baterai-vivo.md d:\blog2md\out\cara-membuka-blokiran-wifi-hp-xiaomi.md d:\blog2md\out\cara-membuka-file-google-drive-yang-terkunci.md d:\blog2md\out\cara-membuka-kunci-hp-oppo-a3s-dengan-ketukan.md d:\blog2md\out\cara-membuka-sandi-hp-samsung-j2-prime-tanpa-reset.md d:\blog2md\out\cara-memindahkan-data-hp-xiaomi-ke-laptop.md d:\blog2md\out\cara-memindahkan-penyimpanan-internal-ke-kartu-sd-pada-hp-oppo-a3s.md d:\blog2md\out\cara-memperbaiki-speaker-hp-xiaomi-redmi-4a.md d:\blog2md\out\cara-memperkuat-sinyal-xl-di-hp-xiaomi.md d:\blog2md\out\cara-memutar-video-di-hp-xiaomi.md d:\blog2md\out\cara-menambahkan-lirik-lagu-di-hp-vivo.md d:\blog2md\out\cara-menambah-widget-di-oppo-a5s.md d:\blog2md\out\cara-menampilkan-cuaca-di-hp-xiaomi.md d:\blog2md\out\cara-menampilkan-merek-hp-di-kamera-samsung.md d:\blog2md\out\cara-menampilkan-penggunaan-data-di-status-bar-samsung.md d:\blog2md\out\cara-mencari-catatan-yang-disembunyikan-di-hp-xiaomi.md d:\blog2md\out\cara-mencari-file-yang-terhapus-di-hp-xiaomi.md d:\blog2md\out\cara-mendinginkan-hp-xiaomi.md d:\blog2md\out\cara-mengaktifkan-4g-di-oppo-neo-7-a33w.md d:\blog2md\out\cara-mengaktifkan-4g-oppo-neo-7-a1603.md d:\blog2md\out\cara-mengaktifkan-4g-pada-redmi-4x.md d:\blog2md\out\cara-mengaktifkan-otg-di-hp-vivo.md d:\blog2md\out\cara-mengaktifkan-otg-di-hp-xiaomi.md d:\blog2md\out\cara-mengaktifkan-pip-whatsapp-di-oppo-a5s.md d:\blog2md\out\cara-mengaktifkan-sensor-proximity-oppo.md d:\blog2md\out\cara-mengaktifkan-sms-premium-di-hp-xiaomi.md d:\blog2md\out\cara-mengaktifkan-usb-debugging-vivo-y91.md d:\blog2md\out\cara-mengatasi-hp-samsung-j7-prime-yang-ngeblank.md d:\blog2md\out\cara-mengatasi-hp-vivo-mentok-logo.md d:\blog2md\out\cara-mengatasi-hp-vivo-yang-tidak-bisa-disentuh.md d:\blog2md\out\cara-mengatasi-hp-xiaomi-bergetar-terus-dengan-mudah.md d:\blog2md\out\cara-mengatasi-hp-xiaomi-di-cas-tidak-bertambah.md d:\blog2md\out\cara-mengatasi-iphone-14-hang-tidak-bisa-disentuh.md d:\blog2md\out\cara-mengatasi-volume-hp-xiaomi-naik-turun-sendiri.md d:\blog2md\out\cara-mengembalikan-font-oppo-seperti-semula.md d:\blog2md\out\cara-mengembalikan-keyboard-vivo-seperti-semula.md d:\blog2md\out\cara-mengembalikan-rekaman-suara-yang-terhapus-di-hp-oppo.md d:\blog2md\out\cara-menggunakan-fake-gps-di-hp-oppo.md d:\blog2md\out\cara-menghapus-akun-google-di-hp-samsung-j2-prime.md d:\blog2md\out\cara-menghapus-aplikasi-yang-tidak-bisa-dihapus-di-samsung.md d:\blog2md\out\cara-menghidupkan-hp-oppo-a3s-tanpa-tombol-power.md d:\blog2md\out\cara-menghidupkan-hp-oppo-a3s-yang-tiba-tiba-mati.md d:\blog2md\out\cara-menghilangkan-bayangan-di-layar-hp-xiaomi.md d:\blog2md\out\cara-menghilangkan-iklan-di-hp-oppo.md d:\blog2md\out\cara-menghilangkan-kamus-di-keyboard-vivo.md d:\blog2md\out\cara-menghilangkan-tanda-bulan-sabit-di-hp-oppo.md d:\blog2md\out\cara-mengubah-bahasa-china-ke-indonesia-di-hp-oppo-a37.md d:\blog2md\out\cara-mengubah-font-di-hp-xiaomi-6a.md d:\blog2md\out\cara-mengubah-rasio-thumbnail-template-median-ui.md d:\blog2md\out\cara-mengunci-aplikasi-di-hp-oppo-a5s.md d:\blog2md\out\cara-mengunci-aplikasi-di-hp-samsung-j2-prime.md d:\blog2md\out\cara-mengunci-aplikasi-di-hp-vivo-v9.md d:\blog2md\out\cara-mengunci-aplikasi-di-hp-vivo-y12.md d:\blog2md\out\cara-mengunci-aplikasi-whatsapp.md d:\blog2md\out\cara-mengunci-folder-di-hp-xiaomi.md d:\blog2md\out\cara-mengunci-wa-di-hp-vivo-y12-dengan-mudah.md d:\blog2md\out\cara-meningkatkan-cpc-adsense-blog.md d:\blog2md\out\cara-menonaktifkan-aplikasi-di-hp-xiaomi.md d:\blog2md\out\cara-menonaktifkan-folder-aman-samsung.md d:\blog2md\out\cara-menonaktifkan-kebijakan-keamanan-samsung.md d:\blog2md\out\cara-menyalakan-hp-samsung-yang-mati-total-baterai-tanam.md d:\blog2md\out\cara-menyalakan-senter-hp-vivo-dengan-mudah.md d:\blog2md\out\cara-menyambungkan-hp-vivo-y71-ke-laptop.md d:\blog2md\out\cara-menyambungkan-hp-xiaomi-ke-tv.md d:\blog2md\out\cara-menyembunyikan-foto-profil-whatsapp.md d:\blog2md\out\cara-merekam-layar-di-hp-oppo-a71.md d:\blog2md\out\cara-merekam-layar-hp-oppo-a37-dengan-mudah.md d:\blog2md\out\cara-merekam-layar-hp-oppo-f1s.md d:\blog2md\out\cara-merekam-layar-hp-oppo-f5.md d:\blog2md\out\cara-merekam-layar-hp-vivo-y12-dengan-suara.md d:\blog2md\out\cara-mereset-hp-xiaomi-4a-lupa-pola.md d:\blog2md\out\cara-merubah-jaringan-3g-ke-4g-vivo-y21.md d:\blog2md\out\cara-mudah-update-android-13-xiaomi.md d:\blog2md\out\cara-ngeroot-hp-xiaomi-6a.md d:\blog2md\out\cara-pakai-fake-gps-di-samsung.md d:\blog2md\out\cara-pindah-halaman-di-android-studio.md d:\blog2md\out\cara-reset-hp-oppo-a83.md d:\blog2md\out\cara-reset-hp-oppo-f5.md d:\blog2md\out\cara-restart-hp-samsung-j7-prime-yang-hang.md d:\blog2md\out\cara-root-hp-xiaomi-redmi-5.md d:\blog2md\out\cara-root-hp-xiaomi-redmi-5-comments.md d:\blog2md\out\cara-upgrade-oppo-a37f-ke-marshmallow-tanpa-pc-panduan-lengkap.md d:\blog2md\out\cara-upgrade-oppo-f1s-ke-marshmallow.md d:\blog2md\out\cara-upgrade-xiaomi-redmi-2-ke-android-lollipop.md d:\blog2md\out\cek-touchscreen-iphone-rusak-atau-tidak.md d:\blog2md\out\contoh-koneksi-java-dengan-mysql-database.md d:\blog2md\out\cpp-bilangan-ganjil-kelipatan-7.md d:\blog2md\out\cpp-membuat-persegi-panjang-bintang.md d:\blog2md\out\cpp-membuat-segitiga-bintang-terbalik.md d:\blog2md\out\definisi-otomata-dan-teori-bahasa.md d:\blog2md\out\definisi-proyek-dan-perencanaan-proyek.md d:\blog2md\out\definisi-sistem-operasi-komputer.md d:\blog2md\out\destructuring-array-pada-javascript.md d:\blog2md\out\destructuring-object-pada-javascript.md d:\blog2md\out\error-xampp-mysql-shutdown-unexpectedly.md d:\blog2md\out\hp-tidak-bisa-dicas.md d:\blog2md\out\hp-vivo-y28-kelebihan-dan-kekurangan-review-lengkap.md d:\blog2md\out\hp-xiaomi-tidak-mau-mengisi-baterai.md d:\blog2md\out\iphone-dengan-baterai-besar-dan-terawet.md d:\blog2md\out\java-menghitung-luas-persegi-panjang.md d:\blog2md\out\jenis-jenis-data-pengertian-dan-contohnya.md d:\blog2md\out\kenapa-hp-xiaomi-tidak-ada-suaranya-berikut-cara-mengatasinya.md d:\blog2md\out\kenapa-whatsapp-tidak-bisa-video-call.md d:\blog2md\out\kondisi-di-javascript-if-else-switch-case.md d:\blog2md\out\konsep-dan-teknik-looping-pada-javascript.md d:\blog2md\out\konsep-dasar-operator-pada-javascript.md d:\blog2md\out\memahami-penggunaan-array-di-javascript.md d:\blog2md\out\mematikan-notifikasi-whatsapp.md d:\blog2md\out\membuat-kalkulator-html-css-javascript.md d:\blog2md\out\membuka-kunci-pola-aplikasi-hp-xiaomi.md d:\blog2md\out\menambah-menghapus-admin-grup-whatsapp.md d:\blog2md\out\menampilkan-nama-hp-di-kamera-vivo-y12.md d:\blog2md\out\mengamankan-website-agar-tidak-mudah-diretas.md d:\blog2md\out\mengatasi-hp-menelpon-sendiri.md d:\blog2md\out\mengatasi-koneksi-wifi-lemot-pada-hp-xiaomi.md d:\blog2md\out\mengatasi-masalah-kamera-belakang-vivo-y91-tidak-bisa-beralih.md d:\blog2md\out\mengatasi-tidak-bisa-install-whatsapp.md d:\blog2md\out\mengenal-apa-itu-object-pada-javascript.md d:\blog2md\out\menggunakan-fitur-video-call-di-whatsapp.md d:\blog2md\out\menghemat-kuota-data-saat-menggunakan-whatsapp.md d:\blog2md\out\menghilangkan-sinar-inframerah-di-hp-vivo.md d:\blog2md\out\menyalakan-hp-xiaomi-tanpa-tombol-power.md d:\blog2md\out\menyembunyikan-aplikasi-di-hp-vivo-y91c.md d:\blog2md\out\menyembunyikan-status-whatsapp.md d:\blog2md\out\mudah-cara-memunculkan-kontak-wa-di-hp-xiaomi.md d:\blog2md\out\mudah-cara-menghilangkan-kamus-di-keyboard-oppo.md d:\blog2md\out\nomor-darurat-hp-xiaomi-redmi-5a.md d:\blog2md\out\pengantar-materi-kuliah-data-mining.md d:\blog2md\out\pengertian-dan-perkembangan-javascript.md d:\blog2md\out\pengertian-jenis-finite-state-automata.md d:\blog2md\out\pengertian-jenis-finite-state-automata-comments.md d:\blog2md\out\penggunaan-map-di-javascript.md d:\blog2md\out\penggunaan-set-dalam-javascript.md d:\blog2md\out\penggunaan-voice-note-di-whatsapp.md d:\blog2md\out\perbedaan-iphone-4g-dan-4s.md d:\blog2md\out\perbedaan-rpl-dan-sc-teknik-informatika.md d:\blog2md\out\perbedaan-vivo-y91-dan-y93-ponsel-terjangkau-yang-menarik.md d:\blog2md\out\program-cpp-membuat-persegi-bintang.md d:\blog2md\out\program-cpp-membuat-piramida-bintang.md d:\blog2md\out\program-cpp-membuat-segitiga-bintang.md d:\blog2md\out\program-cpp-menghitung-luas-persegi.md d:\blog2md\out\program-java-menghitung-luas-lingkaran.md d:\blog2md\out\spesifikasi-oppo-f11-dan-vivo-v1.md d:\blog2md\out\tanda-telegram-diblokir.md d:\blog2md\out\tipe-data-javascript-dan-penggunaannya.md d:\blog2md\out\tips-mengamankan-akun-whatsapp-anda.md d:\blog2md\out\tutorial-cara-cas-xiaomi-yi.md d:\blog2md\out\variabel-pada-javascript.md d:\blog2md\out\wa-centang-2-tapi-memanggil.md d:\blog2md\out\weakmap-dan-weakset-pada-javascript.mdnc-n", Times, "Heti Song", serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"'
+
   # font: 'Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif'
   font: "Lato,'Roboto Condensed','Noto Sans TC','PingFang TC','Helvetica Neue','SF Pro TC',Helvetica,arial,'Microsoft JhengHei','Microsoft YaHei',Arial,sans-serif"
 
@@ -262,7 +261,7 @@ params:
     day: 90
 
   # Automatic switching of night mode (using device settings)
-  autoDarkMode: false
+  autoDarkMode: true
 
   share:
     twitter: true
@@ -336,7 +335,7 @@ params:
   # encryption articles
   HugoEncrypt:
     # default password
-    Password: "123456"
+    Password: "ajie357"
     # "session" or "local"
     # or "local"
     Storage: "session"
@@ -358,7 +357,7 @@ params:
   featuredImageHeight: "42%" #42% | false
 
   # Default post card featured image, not displayed on content pages
-  defaultFeaturedImage: false # false | featured.png in assets folder | https://unsplash.it/1920/1080/?random={{timestamp}}
+  defaultFeaturedImage: https://source.unsplash.com/random/1600x900/?anime
 
   # Optimize your images and SEO
   imageProcessing:
@@ -377,7 +376,6 @@ params:
 
   author: Ajie Kusumadhany
   keywords:
-    - Ajie Kusumadhany | Personal Blog
     - Ajie Kusumadhany
     - Ajie Ikrus Kusumadhany
   description: "Media online, tempat saya mencatat segala hal yang ingin saya catat dan berbagi informasi melalui tulisan di internet."
@@ -386,80 +384,12 @@ build:
   noJSConfigInAssets: true
 
 languages:
-  zh-cn:
-    contentDir: content/zh-hans
-    languageName: 中文
-    params:
-      languageIcon: "images/i18n/zh-cn.svg" # in assets folder
-      font: "Times New Roman,Times,Heti Song,serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol"
-      twitter:
-        rsshub: "https://rsshub.rssforever.com"
-        id: "Ice_Hazymoon"
-        imageProcessing: true
-      github:
-        id: "Ice-Hazymoon"
-        minStars: 10
-      license:
-        enabled: true
-        name: "署名 - 非商业性使用 - 禁止演绎 4.0"
-        icon: "Cc-by-nc-nd.svg" # in assets folder
-        url: "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh"
-      announcement:
-        enabled: true
-        file: "asset/readme.md"
-      comments:
-        enabled: true
-        provider: "giscus"
-        giscus:
-          <<: *giscus
-          lang: "zh-CN"
-  zh-TW:
-    contentDir: content/zh-hans
-    languageName: Indonesia
-    params:
-      languageIcon: "images/i18n/zh-tw.svg" # in assets folder
-      font: "Lato,'Roboto Condensed','Noto Sans TC','PingFang TC','Helvetica Neue','SF Pro TC',Helvetica,arial,'Microsoft JhengHei','Microsoft YaHei',Arial,sans-serif"
-      twitter:
-        rsshub: "https://rsshub.rssforever.com"
-        id: "ajiekusumadhany"
-        imageProcessing: true
-      github:
-        id: "ajiekusumadhany"
-        minStars: 0
-      license:
-        enabled: false
-        name: "姓名標示-非商業性-禁止改作 3.0 台灣"
-        icon: "Cc-by-nc-nd.svg" # in assets folder
-        url: "https://creativecommons.org/licenses/by-nc-nd/3.0/tw/"
-      announcement:
-        enabled: true
-        file: "readme.md"
-      comments:
-        enabled: true
-        provider: "giscus"
-        giscus:
-          <<: *giscus
-          lang: "id"
   en-us:
-    contentDir: content/en-us
+    contentDir: content
     languageName: Indonesia
     params:
       languageIcon: "images/i18n/en-us.svg" # in assets folder
-  ja:
-    contentDir: content/ja
-    languageName: 日本語
-    params:
-      languageIcon: "images/i18n/ja.svg"
-      font: "'-apple-system', BlinkMacSystemFont, 'Yu Gothic', '游ゴシック', YuGothic, '游ゴシック体', 'Noto Sans Japanese', 'ヒラギノ角ゴ Pro W3', 'メイリオ', 'Hiragino Kaku Gothic ProN', 'MS PGothic', Osaka, 'sans-serif'"
-      announcement:
-        enabled: true
-        file: "README.ja.md"
-      comments:
-        enabled: true
-        provider: "giscus"
-        giscus:
-          <<: *giscus
-          lang: "ja"
+
     menu:
       main:
         - *mainMenuHome
