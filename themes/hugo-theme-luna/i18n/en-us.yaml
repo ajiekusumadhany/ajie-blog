@@ -141,7 +141,7 @@ switchLang: "Switch language to {{ . }}"
 
 noscript: "Please enable JavaScript for a better experience"
 
-poweredBy: "{{ .Hugo }} {{ .Heart }} {{ .Theme }}"
+poweredBy: "Powered by {{ .Hugo }} {{ .Heart }} {{ .Theme }}"
 
 notFound: "Page not found, click back to home page"
 
