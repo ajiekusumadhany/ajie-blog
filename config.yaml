@@ -354,7 +354,7 @@ params:
 
   # 文章封面图片纵横比
   # article image aspect ratio
-  featuredImageHeight: "100%" #42% | false
+  featuredImageHeight: "42%" #42% | false
 
   # Default post card featured image, not displayed on content pages
   defaultFeaturedImage: https://source.unsplash.com/random/1600x900/?anime
