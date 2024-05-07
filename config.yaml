@@ -9,10 +9,10 @@ timeout: 60000
 timeZone: Asia/Jakarta
 
 # use git commit log to generate lastmod record
-enableGitInfo: false
+enableGitInfo: true
 
 # enable CJK language support
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 # 每页显示文章数量
 # pagination size
