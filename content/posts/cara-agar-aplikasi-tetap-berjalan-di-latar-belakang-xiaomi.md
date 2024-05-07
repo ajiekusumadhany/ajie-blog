@@ -1,12 +1,13 @@
 ---
-title: 5 Cara Agar Aplikasi Tetap Berjalan di Latar Belakang Xiaomi
-author: Ajie Kusumadhany
-date: 2024-05-07T09:35:52+07:00
-featured_image: .\img\Cara-Agar-Aplikasi-Tetap-Berjalan-di-Latar-Belakang-Xiaomi.png
-summary: Cara agar aplikasi tetap berjalan di latar belakang xiaomi, dengan langkah-langkah mudah dan optimalkan pengalaman penggunaan aplikasi.
-tags: ["Xiaomi"]
-categories: ["Smartphone"]
-draft: false
+title: "Cara Agar Aplikasi Tetap Berjalan Di Latar Belakang Xiaomi"
+author: "Ajie Kusumadhany"
+date: 2024-05-07T10:05:23+07:00
+slug: ""
+featured_image: ""
+summary: 
+tags: [""]
+categories: [""]
+draft: true
 ---
 
 Bagi pengguna smartphone Xiaomi, mungkin pernah mengalami masalah di mana aplikasi berhenti saat dipindahkan ke latar belakang. Hal ini dapat menyebabkan beberapa masalah, seperti notifikasi yang tidak muncul atau aplikasi tidak berjalan dengan benar. 
