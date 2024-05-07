@@ -12,8 +12,6 @@ Seorang mahasiswa teknik informatika di salah satu universitas di indonesia
 
 Dia suka komputer, saat ini sedang belajar coding
 
-Tapi gak jago-jago
-
 Serta lebih sering menghabiskan waktu di internet.
 
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7gWFmWvl7eJJRTprWEB-f65xGc-sREX0oX_qa4jLTIo2seifhZ2oSelmO8JMBJu34HJNtay1sXK0S6WTDy7n7lRAyKY_y52eSsGdTMjgfvNMgee-lFuyzdREcvNZSHZZata4RXnlxjdktnP7oy2R74I-7kkf1kxNM7KajOmHKrGxitDGj6LBDBR2x/s1600/imajie.png)
