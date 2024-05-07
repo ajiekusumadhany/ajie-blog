@@ -396,6 +396,6 @@ languages:
         - *mainMenuArchives
         - *mainMenuSearch
         - *mainMenuLinks
-        - *mainMenuTwitter
+        - *mainMenuGitHub
 staticDir:
   - static
