@@ -393,6 +393,7 @@ languages:
     menu:
       main:
         - *mainMenuHome
+        - *mainMenuAbout
         - *mainMenuArchives
         - *mainMenuSearch
         - *mainMenuLinks
