@@ -2,10 +2,9 @@
 title: "{{ replace .Name "-" " " | title }}"
 slug: ""
 featured_image: ""
-author: "Tuvix Shih"
+author: "Ajie Kusumadhany"
 date: {{ .Date }}
-slug: ""
-featured_image: "cover.jpg"
+summary: 
 tags: [""]
 categories: [""]
 draft: true
