@@ -13,7 +13,13 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Install Node dependencies
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Install Node Dependencies (Tailwind, PostCSS, dsb)
+        working-directory: themes/hugo-theme-luna
         run: npm install
 
       - name: Setup Hugo
@@ -22,18 +28,7 @@ jobs:
           hugo-version: "0.125.6"
           extended: true
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "20"
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Make postcss executable
-        run: chmod +x ./node_modules/.bin/postcss
-
-      - name: Build Hugo
+      - name: Build Hugo Site
         run: hugo --minify
 
       - name: Deploy to VPS via SCP
