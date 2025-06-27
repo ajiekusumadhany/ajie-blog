@@ -3,40 +3,43 @@ name: Deploy Hugo to VPS
 on:
   push:
     branches:
-      - main
+      - main  # Ganti kalau branch utama kamu bukan 'main'
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repository
+      - name: ⬇️ Checkout Repository
         uses: actions/checkout@v3
 
-      - name: Setup Node.js
+      - name: ⚙️ Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: "20"
+          node-version: '20'
 
-      - name: Install Node Dependencies (Tailwind, PostCSS, dsb)
+      - name: 📦 Install Node.js Dependencies (theme level)
         working-directory: themes/hugo-theme-luna
         run: npm install
 
-      - name: Setup Hugo
+      - name: 🧱 Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "0.125.6"
+          hugo-version: '0.125.6'
           extended: true
 
-      - name: Build Hugo Site
+      - name: 🛠️ Fix PostCSS Permission
+        run: chmod +x ./themes/hugo-theme-luna/node_modules/.bin/postcss
+
+      - name: 🔨 Build Hugo Site
         run: hugo --minify
 
-      - name: Deploy to VPS via SCP
+      - name: 🚀 Deploy to VPS via SCP
         uses: appleboy/scp-action@v0.1.7
         with:
-          host: 202.10.47.11
-          username: root
-          key: ${{ secrets.VPS_PRIVATE_KEY }}
+          host: 202.10.47.11                  # ← Ganti ke IP VPS kamu
+          username: root                      # ← Ganti kalau pakai user non-root
+          key: ${{ secrets.VPS_PRIVATE_KEY }} # ← Masukkan private key via GitHub Secrets
           port: 22
           source: "public/*"
           target: "/home/ajiekusumadhany/public_html/coba-blog/"
