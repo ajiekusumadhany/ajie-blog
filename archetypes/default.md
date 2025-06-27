@@ -1,9 +1,9 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-author: "Ajie Kusumadhany"
-date: {{ .Date }}
 slug: ""
 featured_image: ""
+author: "Ajie Kusumadhany"
+date: {{ .Date }}
 summary: 
 tags: [""]
 categories: [""]
