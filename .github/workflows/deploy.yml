@@ -3,7 +3,7 @@ name: Deploy Hugo to VPS
 on:
   push:
     branches:
-      - main # atau ganti dengan branch utama kamu, misal: master
+      - main
 
 jobs:
   build-and-deploy:
@@ -12,6 +12,14 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      - name: Install Dependencies
+        run: npm install
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -25,10 +33,10 @@ jobs:
       - name: Deploy to VPS via SCP
         uses: appleboy/scp-action@v0.1.7
         with:
-          host: 202.10.47.11 # ← Ganti dengan IP VPS kamu
-          username: root # ← Ganti jika pakai user lain
-          key: ${{ secrets.VPS_PRIVATE_KEY }} # ← Diambil dari secret
-          port: 22 # ← Port default SSH
+          host: 202.10.47.11
+          username: root
+          key: ${{ secrets.VPS_PRIVATE_KEY }}
+          port: 22
           source: "public/*"
           target: "/home/ajiekusumadhany/public_html/coba-blog/"
-          strip_components: 1 # agar tidak nested
+          strip_components: 1
