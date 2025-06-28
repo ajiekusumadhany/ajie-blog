@@ -1,0 +1,36 @@
+{
+    "theme_color": "#0D9488",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "/",
+    "name": "Ajie Ikrus Kusumadhany",
+    "short_name": "Ajie Kusumadhany",
+    "description": "Ajie Ikrus Kusumadhany",
+    "icons": [
+        {
+            "src": "/icon_hufeda081df5323aa088f4c363840999e6_120678_192x192_resize_catmullrom_3.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon_hufeda081df5323aa088f4c363840999e6_120678_256x256_resize_catmullrom_3.png",
+            "sizes": "256x256",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon_hufeda081df5323aa088f4c363840999e6_120678_384x384_resize_catmullrom_3.png",
+            "sizes": "384x384",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/icon_hufeda081df5323aa088f4c363840999e6_120678_512x512_resize_catmullrom_3.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ]
+}
