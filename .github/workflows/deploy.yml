@@ -21,9 +21,6 @@ jobs:
       - name: 📦 Install Node.js Dependencies
         run: npm install
 
-      - name: 🛠️ Ensure PostCSS is Executable
-        run: chmod +x ./node_modules/.bin/postcss
-
       - name: 🧱 Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
