@@ -30,6 +30,9 @@ jobs:
       - name: 🔨 Build Hugo Site
         run: hugo --minify
 
+      - name: 🛠️ Fix PostCSS Permission
+        run: chmod +x ./node_modules/.bin/postcss
+
       - name: 🚀 Deploy to VPS via SCP
         uses: appleboy/scp-action@v0.1.7
         with:
