@@ -21,6 +21,9 @@ jobs:
       - name: 📦 Install Node.js Dependencies
         run: npm install
 
+      - name: 🔓 Fix postcss permission
+        run: chmod +x ./node_modules/.bin/postcss
+        
       - name: 🧱 Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -30,8 +33,6 @@ jobs:
       - name: 🔨 Build Hugo Site
         run: hugo --minify
 
-      - name: 🛠️ Fix PostCSS Permission
-        run: chmod +x ./node_modules/.bin/postcss
 
       - name: 🚀 Deploy to VPS via SCP
         uses: appleboy/scp-action@v0.1.7
